@@ -46,6 +46,9 @@
 ;;; Code
 (deftheme zenburn "The Zenburn color theme")
 
+;; Emacs 23 + color-theme.el compatibility
+(setq custom-theme-load-path '())
+
 (let ((class '((class color) (min-colors 89)))
       ;; Zenburn palette
       ;; colors with +x are lighter, colors with -x are darker
