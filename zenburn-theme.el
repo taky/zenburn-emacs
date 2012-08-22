@@ -92,7 +92,7 @@
    `(default ((,class (:foreground ,zenburn-fg :background ,zenburn-bg))))
    `(cursor ((,class (:foreground ,zenburn-fg))))
    `(escape-glyph-face ((,class (:foreground ,zenburn-red))))
-   `(fringe ((,class (:foreground ,zenburn-fg :background ,zenburn-bg+1))))
+   `(fringe ((,class (:foreground ,zenburn-fg :background ,zenburn-bg))))
    `(header-line ((,class (:foreground ,zenburn-yellow
                                        :background ,zenburn-bg-1
                                        :box (:line-width -1 :style released-button)))))
@@ -126,14 +126,11 @@
    `(menu ((,class (:foreground ,zenburn-fg :background ,zenburn-bg))))
    `(minibuffer-prompt ((,class (:foreground ,zenburn-yellow))))
    `(mode-line
-     ((,class (:foreground ,zenburn-green+1
-                           :background ,zenburn-bg-1
-                           :box (:line-width -1 :style released-button)))))
+     ((,class (:foreground ,zenburn-green+1 :background ,zenburn-bg-1))))
    `(mode-line-buffer-id ((,class (:foreground ,zenburn-yellow :weight bold))))
    `(mode-line-inactive
-     ((,class (:foreground ,zenburn-green-1
-                           :background ,zenburn-bg-05
-                           :box (:line-width -1 :style released-button)))))
+     ((,class (:foreground ,zenburn-green-1 :background ,zenburn-bg-1))))
+
    `(region ((,class (:background ,zenburn-bg-1))))
    `(secondary-selection ((,class (:background ,zenburn-bg+2))))
    `(trailing-whitespace ((,class (:background ,zenburn-red))))
